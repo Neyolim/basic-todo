@@ -52,7 +52,7 @@ function ToDo() {
                                 checked={task.done}
                                 onChange={() => toggleTaskDone(index)}
                             />
-                            <span>{task.text}</span>
+                            <span style={{ marginRight: '8px' }}>{task.text}</span>
                         </div>
                         <button className="delete-button" onClick={() => deleteTask(index)}>
                             Delete
